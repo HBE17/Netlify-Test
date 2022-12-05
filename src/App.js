@@ -7,6 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello this is Netlify test app</p>
+        <p>This is anohter line added to check if netlify updates the site</p>
         <a
           className="App-link"
           href="https://reactjs.org"
