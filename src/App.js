@@ -8,6 +8,21 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello this is Netlify test app</p>
         <p>This is anohter line added to check if netlify updates the site</p>
+        <form name="contact" netlify>
+          <p>
+            <label>
+              Name <input type="text" name="name" />
+            </label>
+          </p>
+          <p>
+            <label>
+              Email <input type="email" name="email" />
+            </label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
         <a
           className="App-link"
           href="https://reactjs.org"
